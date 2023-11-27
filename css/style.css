@@ -1,0 +1,113 @@
+
+
+body {
+    margin: 0;
+    background: black;
+    width: 100vw;
+}
+
+.list {
+    list-style: none;
+    float:right;
+    margin-right: 1em;
+}
+
+.list-item {
+    display: inline;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.nav {
+    background-color: black;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px white;
+    position: relative;
+}
+
+.logolinks {
+    height: auto;
+    width: 2em;
+    margin-left: 1em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bannerhome {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    color: white;
+}
+
+
+.shirtshome {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 20em;
+    margin-left: 20em;
+    padding: 10px;
+  }
+  
+  .shirt1 {
+    margin: 0em;
+    font-size: 1em;
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+    z-index: 10;
+    
+  }
+  
+  .shirt2 {
+    margin: 0em;
+    font-size: 1em;
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+    z-index: 10;
+  }
+  
+  .shirt3 {
+    margin: 0em;
+    font-size: 1em;
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+    z-index: 10;
+  }
+
+  .onderkanthome {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .quote {
+    width: 100%;
+  }
+
+  .galatasarayshirts {
+    width: 200px;
+  }
+
+  h2, h3 {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
